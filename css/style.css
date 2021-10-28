@@ -1,0 +1,221 @@
+@font-face {
+    font-family: 'Helvetica Neue Cyr Roman';
+    src: url('../fonts/HelveticaNeueCyr-Roman.woff');
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+body {
+    color: #4B4B4B;
+    font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.main {
+    /*max-width: 1020px;*/
+    margin: 50px 50px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #5D62B5;
+    height: 17px;
+    padding-left: 10px;
+    margin-bottom: 33px;
+  
+}
+
+.subtitle::before {
+    content: url("../img/icons/Overline Mark.svg");
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title {
+    font-weight: 900;
+    color: black;
+    font-size: 36px;
+    margin-bottom: 45px;
+}
+
+.block {
+    display: inline-block;
+    /*width: 360px; */
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.block_body {
+    width: 235px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 86px;
+    height:63px;
+}
+
+.block_text {
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    color: #4b4b4b;
+}
+
+.block_title {
+    color: #f2726f;
+    font-size: 19px;
+    line-height: 1.37;
+    font-weight: 900;
+    margin-bottom:10px;
+}
+
+.block:nth-child(1)::before {
+    background: url("../img/icons/dog_love.svg") 0 0 no-repeat;
+}
+.block:nth-child(2)::before {
+    background: url("../img/icons/dog_vet.svg") 0 0 no-repeat;
+}
+.block:nth-child(3)::before {
+    background: url("../img/icons/dog_stream.svg") 0 0 no-repeat;
+}
+
+.content {
+    margin-bottom: 50px;
+}
+
+.black-block {
+    width: 255px;
+    height: 206px;
+    background-color: #252525;
+    font-family: Helvetica Neue Cyr Roman,sans-serif;
+    margin-bottom: 50px;
+}
+
+.black-block__title {
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    padding: 24px 24px 10px;
+}
+
+.black-block__title::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #34C759;
+    margin: 15px 0px 0px 0px;
+}
+
+.black-block__text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    /*text-align: center;*/
+    width: 207px;
+    margin: 0 auto;
+}
+
+.block-list {
+    margin: 0 auto;
+    max-width: 841px;
+    padding: 125px 0 137px 0;
+}
+
+.list li:nth-child(1) {
+    color: #273D46;
+    text-decoration: line-through;
+}
+
+.list li:nth-child(2) {
+    color: #273D46;
+    font-weight: bold;
+}
+
+.list li:nth-child(3) {
+    color: #273D46;
+    font-style: italic;
+}
+
+.list li:nth-child(4) {
+    color: #273D46;
+    text-transform: uppercase;
+}
+
+.list li:before {
+    content: url("../img/icons/Overline Mark.svg");
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.list li:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.list li:nth-child(2):hover {
+    color: crimson;
+}
+
+.list li:nth-child(2):hover:before {
+    content: url("../img/icons/overline.svg");
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
+.list li:last-child:hover {
+    text-transform: lowercase;
+}
+
